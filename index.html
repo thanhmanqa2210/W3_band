@@ -30,7 +30,7 @@
                     <a href="#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="" id="test">
+                    <a href="#">
 
                         More  <i class="nav-arow-down ti-angle-down"></i>
                     </a>
@@ -184,20 +184,34 @@
             </p>
         </div>
     </div>
+
     <script>
+        // <!-- đóng/mở menu bar -->
         var header = document.getElementById('header');
         var menuMobile = document.getElementById('mobile-menu');
         var headerHeight = header.clientHeight;
         menuMobile.onclick = function() {
-            // console.log(header.clientHeight);
-            var isClosed = header.clientHeight === headerHeight;
-            if (isClosed) {
-                header.style.height = 'auto';
-            } else {
-                header.style.height = '46px';
+                // console.log(header.clientHeight);
+                var isClosed = header.clientHeight === headerHeight;
+                if (isClosed) {
+                    header.style.height = 'auto';
+                } else {
+                    header.style.height = headerHeight + 'px';
+                }
+            }
+            //đóng/mở menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        // console.log(menuItems);
+        for (var i = 0; i < menuItems.length; i++) {
+            // console.log(menuItems[i]);
+            var menuItem = menuItems[i];
+            menuItem.onclick = function() {
+                header.style.height = null;
+
             }
         }
     </script>
+
 </body>
 
 </html>

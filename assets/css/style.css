@@ -73,6 +73,12 @@
             overflow: hidden;
         }
         
+        #header .menu-mobile-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        
         #nav {
             display: inline-block;
         }
