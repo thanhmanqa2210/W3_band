@@ -70,6 +70,7 @@
             left: 0;
             right: 0;
             z-index: 1;
+            overflow: hidden;
         }
         
         #nav {
@@ -129,16 +130,23 @@
             line-height: 22.4px;
         }
         
+        #header .menu-mobile-btn,
         #header .search-button {
             float: right;
             padding: 0 21px;
-            cursor: pointer;
         }
         
         #header .search-button:hover {
+            cursor: pointer;
             background-color: #f44336;
         }
         
+        #header .menu-mobile-btn:hover {
+            background-color: #ccc;
+            color: #000;
+        }
+        
+        #header .menu-icon,
         #header .search-icon {
             color: #fff;
             font-size: 15px;
@@ -173,9 +181,12 @@
         
         #content .content-section {
             width: 800px;
+            max-width: 100%;
             padding: 64px 0px 80px;
             margin-left: auto;
             margin-right: auto;
+            padding-left: 16px;
+            padding-right: 16px;
         }
         
         #content .section-heading {
