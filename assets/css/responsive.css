@@ -4,6 +4,9 @@
     #header .menu-mobile-btn {
         display: none;
     }
+    #content .tour-section {
+        margin-top: 16px;
+    }
 }
 
 
@@ -13,12 +16,18 @@
     #header .menu-mobile-btn {
         display: none;
     }
+    #content .tour-section {
+        margin-top: 16px;
+    }
 }
 
 
 /* Mobile */
 
 @media (max-width:739px) {
+    .s-col-full {
+        width: 100%;
+    }
     #nav {
         display: block;
     }
@@ -45,5 +54,8 @@
     }
     #header {
         overflow: hidden;
+    }
+    #content .member-img {
+        width: 60%;
     }
 }
