@@ -7,6 +7,7 @@
     <title>The band</title>
     <link rel="icon" href="./assets/img/tròn xoắn.jpg" type="anh-icon-facebook-cute-dep.jpg" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./assets/fontss/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.css">
 </head>
@@ -29,7 +30,7 @@
                     <a href="#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="" id="test">
+                    <a href="#">
 
                         More  <i class="nav-arow-down ti-angle-down"></i>
                     </a>
@@ -51,6 +52,8 @@
             <div class="search-button">
                 <i class="search-icon ti-search"></i>
             </div>
+            <div id="mobile-menu" class="menu-icon menu-mobile-btn ">
+                <i class='ti-menu'></i> </div>
             <!-- end: search button -->
 
         </div>
@@ -71,17 +74,17 @@
                     ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
                     id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div class="row member-list">
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-16 text-center">
                         <p class="member-name">Name</p>
-                        <img src="./assets/img/member.jpg" alt="Name" class="member-img">
+                        <img src="./assets/img/member.jpg" alt="Name " class="member-img ">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-16 text-center">
                         <p class="member-name">Name</p>
-                        <img src="./assets/img/member.jpg" alt="Name" class="member-img">
+                        <img src="./assets/img/member.jpg" alt="Name" class="member-img ">
                     </div>
-                    <div class="col col-third text-center">
+                    <div class="col col-third s-col-full mt-16 text-center">
                         <p class="member-name">Name</p>
-                        <img src="./assets/img/member.jpg" alt="Name" class="member-img">
+                        <img src="./assets/img/member.jpg" alt="Name " class="member-img ">
 
                     </div>
                     <div class="clear"></div>
@@ -90,19 +93,19 @@
 
             <!-- Tour-section -->
             <div id="tour" class="tour-section">
-                <div class="content-section">
-                    <h2 class="section-heading text-white">TOUR DATES</h2>
-                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                <div class="content-section ">
+                    <h2 class="section-heading text-white ">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white ">Remember to book your tickets!</p>
                     <!--tickets-list-->
-                    <ul class="tickets-list ">
-                        <li>September <span class="sold-out">Sold out</span></li>
-                        <li>October <span class="sold-out">Sold out</span></li>
-                        <li>November <span class="quantity">3</span></li>
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out ">Sold out</span></li>
+                        <li>October <span class="sold-out ">Sold out</span></li>
+                        <li>November <span class="quantity ">3</span></li>
                     </ul>
 
                     <!--places-->
                     <div class="row place-list">
-                        <div class=" col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/places/newyork.jpg" alt="Newyork" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
@@ -111,20 +114,20 @@
                                 <a href="" class="buy-button">Buy Tickets</a>
                             </div>
                         </div>
-                        <div class="col col-third ">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/places/paris.jpg" alt="paris" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
-                                <p class="place-times">Fri 27 Nov 2016</p>
+                                <p class="place-times">Sat 28 Nov 2016</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
                                 <a href="" class="buy-button">Buy Tickets</a>
                             </div>
                         </div>
-                        <div class="col col-third ">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/places/sanfran.jpg" alt="Sanfran" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
-                                <p class="place-times">Fri 27 Nov 2016</p>
+                                <p class="place-times">Sun 29 Nov 2016</p>
                                 <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
                                 <a href="" class="buy-button">Buy Tickets</a>
                             </div>
@@ -136,51 +139,83 @@
 
 
             <!-- Contact-section -->
-            <div id="contact" class=" content-section ">
-                <h2 class="section-heading ">CONTACT</h2>
-                <p class="section-sub-heading ">Fan? Drop a note!</p>
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
                 <div class="row contact-content">
-                    <div class="col col-half contact-info">
+                    <div class="col col-half s-col-full contact-info">
                         <p><i class="ti-location-pin"></i>Chicago, US</p>
                         <p><i class="ti-mobile"></i>Phone: +00 151515</p>
                         <p><i class="ti-email"></i>Email: thanhmantm1999@mail.com</p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col col-half s-col-full contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col col-half">
-                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                <div class="col col-half s-col-full">
+                                    <input type="text" name="" placeholder="Name" required id="" class="form-control ">
                                 </div>
-                                <div class="col col-half">
-                                    <input type="email" name=" " placeholder="Email " required id=" " class="form-control">
+                                <div class="col col-half s-col-full s-mt-8">
+                                    <input type="email" name="" placeholder="Email" required id="" class="form-control ">
                                 </div>
                             </div>
                             <div class="row mt-8">
                                 <div class="col col-full">
-                                    <input type="text" name=" " placeholder="Message " required id=" " class="form-control ">
+                                    <input type="text" name="" placeholder="Message" required id="" class=" form-control ">
                                 </div>
                             </div>
-                            <input class="form-sm-btn mt-16 pull-right" type="submit" value="SEND">
+                            <input class="form-sm-btn mt-16 pull-right s-full-width" type="submit" value="SEND ">
                         </form>
                     </div>
                 </div>
             </div>
-            <img class="col-full map-section" src="assets/img/map.jpg ">
+            <img class="col-full map-section " src="assets/img/map.jpg ">
         </div>
         <div id="footer">
-            <div class="social-list ">
-                <a href=""><i class="ti-facebook"></i></a>
-                <a href=""><i class="ti-instagram"></i></a>
-                <a href=""><i class="ti-youtube"></i></a>
-                <a href=""><i class="ti-pinterest"></i></a>
-                <a href=""><i class="ti-twitter-alt"></i></a>
-                <a href=""><i class="ti-linkedin"></i></a>
+            <div class="social-list">
+                <a href=" "><i class="ti-facebook "></i></a>
+                <a href=" "><i class="ti-instagram "></i></a>
+                <a href=" "><i class="ti-youtube "></i></a>
+                <a href=" "><i class="ti-pinterest "></i></a>
+                <a href=" "><i class="ti-twitter-alt "></i></a>
+                <a href=" "><i class="ti-linkedin "></i></a>
             </div>
             <p class="copyright">Powered by
                 <a href="w3.css">w3.css</a>
             </p>
         </div>
     </div>
+
+    <script>
+        // <!-- đóng/mở menu bar -->
+        var header = document.getElementById('header');
+        var menuMobile = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        menuMobile.onclick = function() {
+                // console.log(header.clientHeight);
+                var isClosed = header.clientHeight === headerHeight;
+                if (isClosed) {
+                    header.style.height = 'auto';
+                } else {
+                    header.style.height = headerHeight + 'px';
+                }
+            }
+            //đóng/mở menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        // console.log(menuItems);
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            // var isParentMenu = menuItem.nextElementSibling && menuItem.nextElementSibling.classList.contains('subnav');
+            menuItem.onclick = function(event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (!isParentMenu) {
+                    header.style.height = null;
+                } else {
+                    event.preventDefault();
+                }
+
+            }
+        }
+    </script>
 
 </body>
 

@@ -1,0 +1,77 @@
+/* PC */
+
+@media (min-width: 1024px) {
+    #header .menu-mobile-btn {
+        display: none;
+    }
+    #content .tour-section {
+        margin-top: 16px;
+    }
+}
+
+
+/* Taplet */
+
+@media (min-width:740px) and (max-width:1023px) {
+    #header .menu-mobile-btn {
+        display: none;
+    }
+    #content .tour-section {
+        margin-top: 16px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width:739px) {
+    .s-full-width {
+        width: 52% !important;
+        margin-right: 89px;
+        text-align: center;
+    }
+    .s-col-full {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    .place-body .buy-button {
+        width: 52%;
+        text-align: center;
+        margin-left: 83px;
+    }
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 12px 41px;
+        line-height: 22.4px;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #header .search-button {
+        display: none;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 16px;
+    }
+}
