@@ -25,8 +25,21 @@
 /* Mobile */
 
 @media (max-width:739px) {
+    .s-full-width {
+        width: 52% !important;
+        margin-right: 89px;
+        text-align: center;
+    }
     .s-col-full {
-        width: 100%;
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    .place-body .buy-button {
+        width: 52%;
+        text-align: center;
+        margin-left: 83px;
     }
     #nav {
         display: block;
@@ -57,5 +70,8 @@
     }
     #content .member-img {
         width: 60%;
+    }
+    .contact-form {
+        margin-top: 16px;
     }
 }
