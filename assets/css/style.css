@@ -163,7 +163,7 @@
             position: relative;
             margin-top: 46.4px;
             padding-top: 50%;
-            background: url("/assets/img/slides/chicago.jpg") top center/cover no-repeat;
+            background: url("../img/slides/chicago.jpg") top center/cover no-repeat;
         }
         
         #slider .text-content {
@@ -183,6 +183,7 @@
         #slider .text-description {
             font-size: 15px;
             margin-top: 25px;
+            text-shadow: 0px 0px 6px #000;
         }
         
         #content .content-section {
